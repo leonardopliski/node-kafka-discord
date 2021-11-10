@@ -1,0 +1,19 @@
+{
+  "name": "node-apache-kafka-api",
+  "version": "1.0.0",
+  "description": "Node.js API with Apache Kafka",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/leonardopliski/node-apache-kafka.git"
+  },
+  "author": "Leonardo Pliskieviski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/leonardopliski/node-apache-kafka/issues"
+  },
+  "homepage": "https://github.com/leonardopliski/node-apache-kafka#readme"
+}
