@@ -15,5 +15,10 @@
   "bugs": {
     "url": "https://github.com/leonardopliski/node-apache-kafka/issues"
   },
-  "homepage": "https://github.com/leonardopliski/node-apache-kafka#readme"
+  "homepage": "https://github.com/leonardopliski/node-apache-kafka#readme",
+  "dependencies": {
+    "axios": "^0.24.0",
+    "kafkajs": "^1.15.0",
+    "npm-hook-receiver": "^1.0.0"
+  }
 }
