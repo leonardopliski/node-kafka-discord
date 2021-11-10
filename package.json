@@ -5,7 +5,10 @@
   "main": "index.js",
   "scripts": {
     "up": "docker-compose up",
-    "start:dev": "nodemon src/main/server.js"
+    "start:server": "node src/main/server.js",
+    "start:consumer": "node src/main/consumer.js",
+    "start:dev": "nodemon src/main/server.js",
+    "start-consumer:dev": "nodemon src/main/consumer.js"
   },
   "repository": {
     "type": "git",
@@ -20,8 +23,7 @@
   "dependencies": {
     "axios": "^0.24.0",
     "express": "^4.17.1",
-    "kafkajs": "^1.15.0",
-    "npm-hook-receiver": "^1.0.0"
+    "kafkajs": "^1.15.0"
   },
   "devDependencies": {
     "nodemon": "^2.0.15"

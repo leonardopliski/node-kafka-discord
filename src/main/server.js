@@ -21,8 +21,8 @@ const main = async () => {
             }
           ]
         })
-        res.status(200).end();
         console.log('Published message', { responses })
+        res.status(200).end();
     } catch(error) {
       res.status(500).send(error);
     }
